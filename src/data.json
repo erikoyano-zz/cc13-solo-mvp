@@ -1,0 +1,60 @@
+{
+	"data": [
+		{
+			"name": "sunglasses",
+			"cost": "¥15,000",
+			"image": "https://www.lulus.com/images/product/xlarge/3658730_759762.jpg?w=394&hdpi=1",
+			"description": [
+				"Frames measure 5.5' wide.",
+				"Arms measure 5.75' long.",
+				"Nickel brass and plastic.",
+				"Imported."
+			]
+		},
+		{
+			"name": "TShirt",
+			"cost": "¥8,000",
+			"image": "https://www.lulus.com/images/product/xlarge/4428810_890042.jpg?w=394&hdpi=1"
+		},
+		{
+			"name": "Summer Dress",
+			"cost": "¥6,000",
+			"image": "https://www.lulus.com/images/product/xlarge/5776190_1100382.jpg?w=372&hdpi=1"
+		},
+		{
+			"name": "Necklace",
+			"cost": "¥9,000",
+			"image": "https://www.lulus.com/images/product/xlarge/4628070_942862.jpg?w=560&hdpi=1"
+		},
+		{
+			"name": "Oversized V-neck T",
+			"cost": "¥4,000",
+			"image": "https://www.lulus.com/images/product/xlarge/5772610_1249096.jpg?w=560&hdpi=1"
+		},
+		{
+			"name": "Top",
+			"cost": "¥5,000",
+			"image": "https://www.lulus.com/images/product/xlarge/5798510_1094902.jpg?w=560&hdpi=1"
+		},
+		{
+			"name": "Earrings",
+			"cost": "¥9,000",
+			"image": "https://www.lulus.com/images/product/xlarge/4168050_809662.jpg?w=560&hdpi=1"
+		},
+		{
+			"name": "Summer Hat",
+			"cost": "¥7,000",
+			"image": "https://www.lulus.com/images/product/xlarge/3561390_291492.jpg?w=560&hdpi=1"
+		},
+		{
+			"name": "White Top",
+			"cost": "¥12,000",
+			"image": "https://www.lulus.com/images/product/xlarge/5696956_1062262.jpg?w=560&hdpi=1"
+		},
+		{
+			"name": "Shorts",
+			"cost": "¥5,000",
+			"image": "https://www.lulus.com/images/product/xlarge/3208830_641172.jpg?w=560&hdpi=1"
+		}
+	]
+}

@@ -1,38 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+body {
+	margin: 0;
+}
+
+.logo {
+	height: 300px;
+}
 .App {
-  text-align: center;
+	text-align: center;
+	font-family: 'Lora', serif;
+	background-color: rgb(255, 236, 200);
+	height: 300px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.welcome {
+	font-family: 'Dancing Script', cursive;
+	font-size: 75px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.images {
+	padding: 10px;
+	height: 400px;
+	width: 220px;
+	display: flex;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 5% 10% 5% 10%;
+	align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.cart {
+	height: 40px;
+	width: 40px;
+	padding: 10px;
+	cursor: pointer;
+	font-size: 18px;
+	float: right;
+	margin-right: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cartLength {
+	font-size: 20px;
+	float: right;
+	margin-right: 280px;
+	width: 20px;
+	margin-top: 20px;
+}
+
+.button1 {
+	display: inline-block;
+	padding: 0.8em 1.5em;
+	border: 0.1em solid rgb(197, 197, 195);
+	margin: 0 0.3em 0.3em 0;
+	border-radius: 0.12em;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-weight: 300;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	transition: all 0.2s;
+}
+
+.button1:hover {
+	color: #000000;
+	background-color: #c9c9c9;
+}
+
+@media all and (max-width: 30em) {
+	a.button1 {
+		display: block;
+		margin: 0.4em auto;
+	}
+
+	.cartTop {
+		border: 2px solid black;
+		height: 50px;
+	}
+
+	#back {
+		text-align: right;
+	}
 }
