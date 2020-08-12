@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import Cart from './supermarket.png';
 import axios from 'axios';
-import logo from './Andalucia.png';
+import logo from './Andalucia11.png';
+// import Chart from './Chart.jsx';
 
 const PAGE_PRODUCTS = 'products';
 const PAGE_CART = 'cart';
@@ -57,8 +58,9 @@ function App() {
 	const renderCart = () => {
 		return (
 			<>
-				<h1> Your Cart</h1>
-				<div className="wrapper">
+				<h1> Cart</h1>
+				{/* <Chart /> */}
+				<div className="wrapper" id="cartWrapper">
 					{cart.map((product) => (
 						<div className="products">
 							<img className="images" src={product.image} alt={product.name} />
@@ -72,6 +74,27 @@ function App() {
 							</button>
 						</div>
 					))}
+					<table className="totalSummary">
+						<thead>Total Summary</thead>
+						<tr>
+							<td>Cost</td>
+							<td>¥</td>
+						</tr>
+						<tr>
+							<td>Tax</td>
+							<td>¥</td>
+						</tr>
+						<tr>
+							<td>Shipping</td>
+							<td>Always Free!</td>
+						</tr>
+						<tr>
+							<td>
+								<b>Grand Total</b>
+							</td>
+							<td>¥</td>
+						</tr>
+					</table>
 				</div>
 			</>
 		);
@@ -89,14 +112,14 @@ function App() {
 					src={Cart}
 					onClick={() => navigateTo(PAGE_CART)}
 				/>
+				<button
+					className="button1"
+					id="back"
+					onClick={() => navigateTo(PAGE_PRODUCTS)}
+				>
+					Back
+				</button>
 			</div>
-			<button
-				className="button1"
-				id="back"
-				onClick={() => navigateTo(PAGE_PRODUCTS)}
-			>
-				Back
-			</button>
 			{page === PAGE_PRODUCTS && renderProducts()};
 			{page === PAGE_CART && renderCart()}
 		</div>

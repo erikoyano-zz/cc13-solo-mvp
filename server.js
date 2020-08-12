@@ -11,5 +11,5 @@ app.get('/api/fashion', (req, res) => {
 app.use('/', express.static(path.join(__dirname, '/build')));
 
 app.listen(PORT, () => {
-	console.log('App listening on port ${PORT}!');
+	console.log(`App listening on port ${PORT}!`);
 });
