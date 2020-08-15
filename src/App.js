@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import Cart from './supermarket.png';
 import axios from 'axios';
-import logo from './Andalucia11.png';
+import logo from './Andalucia.png';
 // import Chart from './Chart.jsx';
 
 const PAGE_PRODUCTS = 'products';
