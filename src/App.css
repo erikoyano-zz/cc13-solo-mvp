@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
+@media(max-width:770px) {
+	.wrapper {
+		margin: 0 10%
+	}
+}
 
 
 .logo {
